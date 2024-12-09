@@ -109,7 +109,7 @@ button {
 
 }
 
-.navbar-list ul {
+.home-navbar-list ul ,.navbar-list ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -231,14 +231,14 @@ h6 {
 }
 
 .property-details,
-.blog-info {
+.blog-info,.about-section-title,.testimonial-header,.testimonial-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* gap: 248px; */
 }
 
-.description {
+.description ,.testimonial-header p,.testimonial-image{
     width: 45%;
 }
 
@@ -720,3 +720,109 @@ h6 {
     margin-left: 8px;
 }
 /********* Footer Start *******/
+
+
+/**************************** About Page ****************************/
+
+/******* header section start *******/
+.navbar-list ul li a{
+color: var(--gray-500);
+}
+.navbar-list ul li .active{
+    color: var(--gray-900);
+    font-weight: var(--font-weight-medium);
+    }
+.nav-contact button{
+    background-color: var(--gray-900);
+    color:var(--gray-25);
+}
+/******* header section end *******/
+/*********************  About Intro Start ******************** */
+.about-section {
+    padding-top: 80px;
+}
+.about-section-title .section-title{
+  width: 40%;
+}
+.about-section-title .description{
+    width: 40%;
+}
+ .about-section-title .description p,.about-text-content p{
+    font-size: var(--font-size-body-large);
+}
+.about-section-title .section-title h3{
+    font-size: var(--font-size-heading-2);
+    letter-spacing: 0;
+}
+.about-image img{
+width: 100%;
+margin-top: 56px;
+}
+.stats,.about-section-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 56px;
+}
+.stat{
+    position: relative;
+}
+.stat h2{
+    font-size: var(--font-size-heading-2);
+    font-weight: var(--font-weight-regular);
+    color: var(--gray-900);
+    letter-spacing: 120%;
+   text-align: center;
+}
+.stat .operators{
+    font-size: var(--font-size-heading-5);
+    color: var(--gray-400);
+    position: absolute;
+    top: 0;
+}
+.stat p{
+    font-weight: var(--font-weight-medium);
+    margin-top: 20px;
+    
+}
+.about-section-content{
+    gap: 30px;
+}
+.about-text-content p{
+    margin-top: 24px;
+}
+/*********************  About Intro End ******************** */
+/*********************  About Logo Start ******************** */
+.trusted-section h4,.testimonial-text h4{
+    font-size: var(--font-size-heading-4);
+    font-weight: var(--font-weight-medium);
+    color: var(--gray-900);
+    line-height: 120%;
+    text-align: center;
+}
+.trusted-section .bank-logos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+/*********************  About Logo End ******************** */
+.testimonial-content{
+    margin-top: 56px;
+    gap:50px;
+}
+.testimonial-text p{
+    font-size: var(--font-size-heading-6);
+    font-weight: var(--font-weight-regular);
+    line-height: 167%;
+    color: var(--gray-600);
+    margin-top: 24px;
+}
+.testimonial-text h4{
+    text-align:left;
+}
+.testimonial-text .author{
+    font-size: var(--font-size-body-Xlarge);
+    font-weight: var(--font-weight-medium);
+    color: var(--gray-900);
+    line-height: 155%;
+}
