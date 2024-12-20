@@ -6,244 +6,276 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-One Modern Real Estate Website</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <!--------------------- Header Section Start ---------------------->
-    <header class="header-section">
-        <div class="navbar-logo">
-            <img src="./assets/Logo-Container.png" alt="Logo">
-        </div>
-        <div class="navbar-list">
+    <div class="background">
+        <!--------------------- Header Section Start ---------------------->
+        <header class="header-section">
+            <div class="navbar-logo">
+                <img src="./assets/Logo-Container.png" alt="Logo">
+            </div>
+            <div class="navbar-list mobile-responsive">
 
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a class="active" href="./about.html">About</a></li>
-                <li><a href="./property.html">Property</a></li>
-                <li><a href="./agent.html">Agent</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./faq.html">FAQ's</a></li>
-            </ul>
-        </div>
-        <div class="nav-contact">
-            <button>Contact Us</button>
-        </div>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a class="active" href="./about.html">About</a></li>
+                    <li><a href="./property.html">Property</a></li>
+                    <li><a href="./agent.html">Agent</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./faq.html">FAQ's</a></li>
+                </ul>
+            </div>
+            <div class="nav-contact mobile-responsive">
+                <button onclick="location.href='contact.html'">Contact Us</button>
+            </div>
 
-    </header>
-    <!--------------------- Header Section End ---------------------->
-    <main>
-        <div class="container">
-            <!--------------------- About Intro Start ---------------------->
-            <section>
-                <div class="about-section">
-                    <div class="about-section-title">
-                        <div class="section-title">
-                            <h3>Explore Our Property Listings</h3>
-                        </div>
-                        <div class="description">
-                            <p>At Comfea, we are dedicated to transforming the real estate landscape with innovative and
-                                sustainable property solutions. Our mission is to craft exceptional spaces that inspire,
-                                empower, and elevate the lives of those who live, work, and invest in them.</p>
-                        </div>
-
-                    </div>
-
-                    <div class="about-image">
-                        <img src="./assets/about-img-1.png" alt="Property Image">
-                    </div>
-                    <div class="stats">
-                        <div class="stat">
-                            <h2>280<span class="operators">+</span></h2>
-                            <p>Properties Sold</p>
-                        </div>
-                        <div class="stat">
-                            <h2>99<span class="operators">+</span></h2>
-                            <p>Properties for Rent</p>
-                        </div>
-                        <div class="stat">
-                            <h2>360<span class="operators">+</span></h2>
-                            <p>Happy Clients</p>
-                        </div>
-                        <div class="stat">
-                            <h2>95<span class="operators">%</span></h2>
-                            <p>Client Satisfaction Rate</p>
-                        </div>
-                    </div>
-                    <div class="about-section-content">
-
-                        <div class="about-text-content">
-                            <h3>Pioneering Excellence in <br> Property Development for <br> Your Future</h3>
-                            <p>At Comfea, we are dedicated to transforming the real estate landscape with innovative and
-                                sustainable property solutions. Our mission is to craft exceptional spaces that inspire,
-                                empower, and elevate the lives of those who live, work, and invest in them.</p>
-                            <p>From modern residential communities to dynamic commercial developments, every project we
-                                undertake is a reflection of our commitment to excellence. Guided by a vision of
-                                creating lasting value, we prioritize quality, functionality, and design to ensure our
-                                properties stand the test of time.</p>
-                            <p>With a passionate team of professionals and a forward-thinking approach, Comfea combines
-                                cutting-edge technology with meticulous attention to detail. We go beyond building
-                                properties; we build opportunities, connections, and thriving communities where dreams
-                                take shape and futures are secured.</p>
-                            <p>At Comfea, your aspirations drive our purpose. Together, let's pioneer a new standard of
-                                excellence in property development—because your future deserves nothing less.</p>
-                        </div>
-                        <div class="about-image-content">
-                            <img src="./assets/about-img-2.png" alt="Property Development">
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!--------------------- About Intro End ---------------------->
-            <!--------------------- About Logo Start ---------------------->
-
-            <section>
-                <div class="trusted-section">
-                    <h4>Trusted by leading banks</h4>
-                    <div class="bank-logos">
-                        <img src="./assets/Bank-Logo.png" alt="Bank of America">
-                        <img src="./assets/union-bank-logo.png" alt="Union Bank">
-                        <img src="./assets/hsbc-logo.png" alt="HSBC">
-                        <img src="./assets/Citizen-Bank-Logo.png" alt="Citizens Bank">
-                        <img src="./assets/citigroup-logo.png" alt="Citigroup">
-                    </div>
-                </div>
-            </section>
-            <!--------------------- About Logo End ---------------------->
-            <!--------------------- Testimonials Section Start ---------------------->
-            <section>
-                <div class="testimonial-section">
-                <div class="testimonial-header">
-                  <h3>What Our Clients Say</h3>
-                  <p>Hear from our satisfied clients who have found their dream homes and investment properties with us. Our commitment to exceptional service and client satisfaction is at the heart of everything we do.</p>
-                </div>
-                <div class="testimonial-content">
-                  <div class="testimonial-text">
-                    <img src="./assets/quote-right.png" alt="Quote Right">
-                    <h4>A Seamless Buying Experience</h4>
-                    <p>Working with Comfea made buying my first home an enjoyable experience. The team was patient, knowledgeable, and guided me through every step. I couldn’t be happier with my new home!</p>
-                    <p class="author">— Jessica R</p>
-                  </div>
-                  <div class="testimonial-image">
-                    <img src="./assets/about-img -3.png" alt="Family in a new home">
-                  </div>
-                </div>
-                </div>
-              </section>
-<!--------------------- Testimonials Section End ---------------------->
-                <!---------------------------- FAQ Section Start -------------------------->
+        </header>
+        <!--------------------- Header Section End ---------------------->
+        <main>
+            <div class="container">
+                <!--------------------- About Intro Start ---------------------->
                 <section>
-                    <div class="faq-section">
-                    <div class="section-title faq-left">
-                      <h3>Frequently Asked Questions</h3>
-                      <p>At our real estate agency, we understand that buying or selling a home can be a daunting process. That’s why we’ve compiled a list of frequently asked questions to help guide you through your journey.</p>
-                      <img src="./assets/FAQ-Image.png" alt="FAQ Image" class="faq-image">
-                    </div>
-                    <div class="faq-right">
-                      <div class="faq-item">
-                        <div class="faq-question">How do I start the process of buying a property?</div>
-                        <button class="faq-icon"><i class="fa-solid fa-minus"></i></button>
-                      </div>
-                      <div class="faq-item">
-                        <div class="faq-question">What should I look for when buying a home?</div>
-                        <button class="faq-icon"><i class="fa-solid fa-minus"></i></button>
-                      </div>
-                      <div class="faq-item">
-                        <div class="faq-question">How much do I need for a down payment?</div>
-                        <button class="faq-icon"><i class="fa-solid fa-minus"></i></button>
-                      </div>
-                      <div class="faq-item active">
-                        <div class="faq-question faq-active">Can I get help with selling my property?
-                            <button class="faq-icon"><span><i class="fa-solid fa-plus"></i></span></button></div>
-                        <div class="faq-answer">
-                          Absolutely! Our team will help you with every aspect of selling your property, including pricing, marketing, and negotiating with buyers. We'll guide you through the process to ensure a smooth sale.
+                    <div class="about-section">
+                        <div class="about-section-title">
+                            <div class="section-title">
+                                <h3>Explore Our Property Listings</h3>
+                            </div>
+                            <div class="description">
+                                <p>At Comfea, we are dedicated to transforming the real estate landscape with innovative
+                                    and
+                                    sustainable property solutions. Our mission is to craft exceptional spaces that
+                                    inspire,
+                                    empower, and elevate the lives of those who live, work, and invest in them.</p>
+                            </div>
+
                         </div>
-                      </div>
-                      <div class="faq-item">
-                        <div class="faq-question">Do you offer property management services?</div>
-                        <button class="faq-icon"><i class="fa-solid fa-minus"></i></button>
-                      </div>
-                      <div class="faq-item">
-                        <div class="faq-question">What are the fees involved when buying or selling a property?</div>
-                        <button class="faq-icon"><i class="fa-solid fa-minus"></i></button>
-                      </div>
-                      <div class="faq-item">
-                        <div class="faq-question">How can I find out if I’m eligible for a mortgage?</div>
-                        <button class="faq-icon"><i class="fa-solid fa-minus"></i></button>
-                      </div>
-                      <div class="faq-item">
-                        <div class="faq-question">What type of properties does your agency specialize in?</div>
-                        <button class="faq-icon"><i class="fa-solid fa-minus"></i></button>
-                      </div>
+
+                        <div class="about-image">
+                            <img src="./assets/about-img-1.png" alt="Property Image">
+                        </div>
+                        <div class="stats">
+                            <div class="stat">
+                                <h2>280<span class="operators">+</span></h2>
+                                <p>Properties Sold</p>
+                            </div>
+                            <div class="stat">
+                                <h2>99<span class="operators">+</span></h2>
+                                <p>Properties for Rent</p>
+                            </div>
+                            <div class="stat">
+                                <h2>360<span class="operators">+</span></h2>
+                                <p>Happy Clients</p>
+                            </div>
+                            <div class="stat">
+                                <h2>95<span class="operators">%</span></h2>
+                                <p>Client Satisfaction Rate</p>
+                            </div>
+                        </div>
+                        <div class="about-section-content">
+
+                            <div class="about-text-content">
+                                <h3>Pioneering Excellence in Property Development for Your Future</h3>
+                                <p>At Comfea, we are dedicated to transforming the real estate landscape with innovative
+                                    and
+                                    sustainable property solutions. Our mission is to craft exceptional spaces that
+                                    inspire,
+                                    empower, and elevate the lives of those who live, work, and invest in them.</p>
+                                <p>From modern residential communities to dynamic commercial developments, every project
+                                    we
+                                    undertake is a reflection of our commitment to excellence. Guided by a vision of
+                                    creating lasting value, we prioritize quality, functionality, and design to ensure
+                                    our
+                                    properties stand the test of time.</p>
+                                <p>With a passionate team of professionals and a forward-thinking approach, Comfea
+                                    combines
+                                    cutting-edge technology with meticulous attention to detail. We go beyond building
+                                    properties; we build opportunities, connections, and thriving communities where
+                                    dreams
+                                    take shape and futures are secured.</p>
+                                <p>At Comfea, your aspirations drive our purpose. Together, let's pioneer a new standard
+                                    of
+                                    excellence in property development—because your future deserves nothing less.</p>
+                            </div>
+                            <div class="about-image-content">
+                                <img src="./assets/about-img-2.png" alt="Property Development">
+                            </div>
+                        </div>
                     </div>
+                </section>
+                <!--------------------- About Intro End ---------------------->
+                <!--------------------- About Logo Start ---------------------->
+
+                <section>
+                    <div class="trusted-section">
+                        <h4>Trusted by leading banks</h4>
+                        <div class="bank-logos">
+                            <img src="./assets/Bank-Logo.png" alt="Bank of America">
+                            <img src="./assets/union-bank-logo.png" alt="Union Bank">
+                            <img src="./assets/hsbc-logo.png" alt="HSBC">
+                            <img src="./assets/Citizen-Bank-Logo.png" alt="Citizens Bank">
+                            <img class="mobile-responsive" src="./assets/citigroup-logo.png" alt="Citigroup">
+                        </div>
                     </div>
-             </section>
-                  <!-------------------------- FAQ Section  End --------------------------->
-        </div>
-    </main>
-  <!----------------- Footer Start -------------------->
-  <footer class="footer-section">
-    <div class="container">
-        <div class="footer-top">
-            <div class="footer-info">
-                <h6>We are an experienced real estate agency based in United Kingdom</h6>
-                <div class="contact-details">
-                    <div>
-                        <h4>General Enquiries</h4>
-                        <p>info@example.com</p>
+                </section>
+                <!--------------------- About Logo End ---------------------->
+                <!--------------------- Testimonials Section Start ---------------------->
+                <section>
+                    <div class="testimonial-section">
+                        <div class="testimonial-header">
+                            <h3>What Our Clients Say</h3>
+                            <p>Hear from our satisfied clients who have found their dream homes and investment
+                                properties with us. Our commitment to exceptional service and client satisfaction is at
+                                the heart of everything we do.</p>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-text">
+                                <img src="./assets/quote-right.png" alt="Quote Right">
+                                <h4>A Seamless Buying Experience</h4>
+                                <p>Working with Comfea made buying my first home an enjoyable experience. The team was
+                                    patient, knowledgeable, and guided me through every step. I couldn’t be happier with
+                                    my new home!</p>
+                                <p class="author">— Jessica R</p>
+                                <div class="progress">
+                                    <hr class="progress-bar active-progress">
+                                    </hr>
+                                    <hr class="progress-bar">
+                                    </hr>
+                                    <hr class="progress-bar">
+                                    </hr>
+
+                                </div>
+                            </div>
+                            <div class="testimonial-image">
+                                <img src="./assets/about-img -3.png" alt="Family in a new home">
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <h4>Phone</h4>
-                        <p>+1 555-0123-456</p>
-                    </div>
-                    <div>
-                        <h4>Office</h4>
-                        <p>789 Elm Street, Springfield, Illinois 62704</p>
-                    </div>
-                </div>
+                </section>
+                <!--------------------- Testimonials Section End ---------------------->
             </div>
-            <div class="footer-links">
-                <div>
-                    <h4>Navigation</h4>
-                    <ul class="navigation">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">FAQ's</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Listing Product</a></li>
-                        <li><a href="#">Agent</a></li>
-                        
-                    </ul>
-                </div>
-                <div>
-                    <h4>Follow Us</h4>
-                    <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Behance</a></li>
-                        <li><a href="#">Dribbble</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <hr class="footer-divider">
-        <div class="footer-bottom">
-            <div class="footer-logo">
-                <img src="./assets/Home-Logo-Container.png" alt="Logo">
-            </div>
-            <div class="footer-brand">
-                <p>&copy; 2023-2024, All Rights Reserved</p>
-            </div>
-            <div class="back-to-top">
-                <a href="#">Back to top <i class="fa-solid fa-arrow-up"></i></a>
-            </div>
-        </div>
     </div>
+
+    <!---------------------------- FAQ Section Start -------------------------->
+    <section>
+        <div class="faq-section container">
+            <div class="section-title faq-left">
+                <h3>Frequently Asked Questions</h3>
+                <p>At our real estate agency, we understand that buying or selling a home can be a daunting process.
+                    That’s why we’ve compiled a list of frequently asked questions to help guide you through your
+                    journey.</p>
+                <img src="./assets/FAQ-Image.png" alt="FAQ Image" class="faq-image hide mobile-responsive">
+            </div>
+            <div class="faq-right">
+                <div class="faq-item">
+                    <div class="faq-question">How do I start the process of buying a property?</div>
+                    <button class="faq-icon"><i class="fa-solid fa-minus"></i></button>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">What should I look for when buying a home?</div>
+                    <button class="faq-icon"><i class="fa-solid fa-minus"></i></button>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">How much do I need for a down payment?</div>
+                    <button class="faq-icon"><i class="fa-solid fa-minus"></i></button>
+                </div>
+                <div class="faq-item active">
+                    <div class="faq-question faq-active">Can I get help with selling my property?
+                        <button class="faq-icon"><span><i class="fa-solid fa-plus"></i></span></button>
+                    </div>
+                    <div class="faq-answer">
+                        Absolutely! Our team will help you with every aspect of selling your property, including
+                        pricing, marketing, and negotiating with buyers. We'll guide you through the process to ensure a
+                        smooth sale.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Do you offer property management services?</div>
+                    <button class="faq-icon"><i class="fa-solid fa-minus"></i></button>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">What are the fees involved when buying or selling a property?</div>
+                    <button class="faq-icon"><i class="fa-solid fa-minus"></i></button>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">How can I find out if I’m eligible for a mortgage?</div>
+                    <button class="faq-icon"><i class="fa-solid fa-minus"></i></button>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">What type of properties does your agency specialize in?</div>
+                    <button class="faq-icon"><i class="fa-solid fa-minus"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------------- FAQ Section  End --------------------------->
+    <!-- </div> -->
+    </main>
+    <!----------------- Footer Start -------------------->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-info">
+                    <h6>We are an experienced real estate agency based in United Kingdom</h6>
+                    <div class="contact-details">
+                        <div>
+                            <h4>General Enquiries</h4>
+                            <p>info@example.com</p>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 555-0123-456</p>
+                        </div>
+                        <div>
+                            <h4>Office</h4>
+                            <p>789 Elm Street, Springfield, Illinois 62704</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div>
+                        <h4>Navigation</h4>
+                        <ul class="navigation">
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./faq.html">FAQ's</a></li>
+                            <li><a href="./about.html">About Us</a></li>
+                            <li><a href="./agent.html">Blog</a></li>
+                            <li><a href="./property.html">Listing Product</a></li>
+                            <li><a href="./agent.html">Agent</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="follow">
+                        <h4>Follow Us</h4>
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Behance</a></li>
+                            <li><a href="#">Dribbble</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="footer-bottom">
+                <div class="footer-logo">
+                    <img src="./assets/Home-Logo-Container.png" alt="Logo">
+                </div>
+                <div class="footer-brand">
+                    <p>&copy; 2023-2024, All Rights Reserved</p>
+                </div>
+                <div class="back-to-top">
+                    <a href="#">Back to top <i class="fa-solid fa-arrow-up"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
-    
+
     <!----------------- Footer End -------------------->
 
 </body>
