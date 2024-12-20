@@ -718,6 +718,11 @@
 .agent-content .blog-post-card{
     width: 100%;
 }
+
+.agent-section-title .section-title h3,
+    .article-section-title .section-title h3 {
+        font-size: var(--font-size-heading-5);
+    }
 .agent-content .blog-post-card .blog-container .blog-content h6,
 .article-section-title .section-title h3{
    font-size: var(--font-size-heading-6);
@@ -741,14 +746,47 @@
     font-size: var(--font-size-body-small);
  }
  .form-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #fff;
-    border-radius: 12px;
-    padding: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
-    margin: 40px auto 0;
+    width: 100%;
+    flex-direction: column; 
 }
+
+.form-container input[type="email"],
+.form-container button {
+    width: 100%; 
+    padding: 12px 20px;
+    text-align: center; 
+}
+
+.faq-header {
+    width: 100%;
+    padding-top: 60px;
+}
+
+.faq-header p {
+    font-size: var(--font-size-body-medium);
+}
+
+.faq-search,.popular-qus,.faq-right,.form-and-content .contact-form,.form-and-content .contact-content{
+    width: 100%;
+}
+
+
+.popular-qus button {
+    padding: 4px 6px;
+}
+
+.faq-accordion .responsive{
+    width: 100%;
+    margin-top: 0;
+}
+.form-and-content{
+    display: block;
+}
+.form-and-content .contact-content{
+   margin-top: 56px;
+}
+.contact-content{
+    gap: 30px;
+}
+
 }
