@@ -90,6 +90,7 @@ button {
 }
 
 /************* Hero Section Start**********/
+
 .hero-area {
     /* height: 1024px; */
     width: 100%;
@@ -123,6 +124,9 @@ button {
 .navbar-logo img{
     width: 107px;
     height: 32px;
+}
+.desktop-hide,.desktop-hide-button{
+    display: none;  
 }
 .hero-area-content,
 .faq-section,
